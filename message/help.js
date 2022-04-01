@@ -10,17 +10,17 @@ ${quote.data.quotes}
 🌐 Total Hit : ${cmhit}
 📆 Date : ${calender}
 ⏰ Time : ${time} WIB
-📶 Speed : ${latensi.toFixed(4)} second
+🚄 Speed : ${latensi.toFixed(4)} second
 ⏳ Runtime :
 ${runtime(process.uptime())}
 
 *「 INFO USER 」*
-> Name : ${pushname}
-> Status : ${isOwner ? 'Owner' : isPremium ? 'Premium' : 'Gratisan'}
-> Nomor : ${sender.split('@')[0]}
-> Balance : $${(getBalance(sender, balance))}
+➪ Name : ${pushname}
+➪ Status : ${isOwner ? 'Owner' : isPremium ? 'Premium' : 'Gratisan'}
+➪ Nomor : ${sender.split('@')[0]}
+➪ Balance : $${(getBalance(sender, balance))}
 
-( 💢 ) *Information*
+</ℹ️> *Information*
 • ${prefix}owner
 • ${prefix}delete
 • ${prefix}stats
@@ -31,7 +31,7 @@ ${runtime(process.uptime())}
 • ${prefix}sc
 • ${prefix}listpremium
 
-( 👥 ) *Group Menu*
+</👥> *Group Menu*
 • ${prefix}nsfw
 • ${prefix}event
 • ${prefix}antilink
@@ -53,7 +53,7 @@ ${runtime(process.uptime())}
 • ${prefix}revoke
 • ${prefix}sider
 
-( ✍🏻 ) *Tools Menu*
+</🔧> *Tools Menu*
 • ${prefix}attp
 • ${prefix}sticker
 • ${prefix}takestick
@@ -65,7 +65,7 @@ ${runtime(process.uptime())}
 • ${prefix}tourl
 • ${prefix}tovn
 
-( 📁 ) *Downloads Menu*
+</📩> *Downloads Menu*
 • ${prefix}play
 • ${prefix}ytmp3
 • ${prefix}ytmp4
@@ -74,7 +74,7 @@ ${runtime(process.uptime())}
 • ${prefix}facebook
 • ${prefix}mediafire
 
-( 🔍 ) *Search Menu*
+</🔍> *Search Menu*
 • ${prefix}ytsearch
 • ${prefix}pinterest
 • ${prefix}groupsearch
@@ -83,7 +83,7 @@ ${runtime(process.uptime())}
 • ${prefix}herolist
 • ${prefix}herodetail
 
-( 🐆 ) *Rpg Menu*
+</🐆> *Rpg Menu*
 • ${prefix}joinrpg
 • ${prefix}inventory
 • ${prefix}adventure
@@ -95,7 +95,7 @@ ${runtime(process.uptime())}
 • ${prefix}selldiamond
 • ${prefix}topleaderboard
 
-( 🕹️ ) *Game Menu*
+</🎮️> *Game Menu*
 • ${prefix}tictactoe
 • ${prefix}suit
 • ${prefix}slot
@@ -106,7 +106,7 @@ ${runtime(process.uptime())}
 • ${prefix}tebaklirik
 • ${prefix}family100
 
-( 🐚 ) *Kerang Menu*
+</🐚> *Kerang Menu*
 • ${prefix}cekganteng
 • ${prefix}cekcantik
 • ${prefix}apakah
@@ -119,11 +119,11 @@ ${runtime(process.uptime())}
 • ${prefix}beban
 • ${prefix}rate
 
-( 📝️ ) *Absen Menu*
+</📝️> *Absen Menu*
 • ${prefix}mulaiabsen
 • ${prefix}cekabsen
 
-( 🔀 ) *Random Menu*
+</🔁> *Random Menu*
 • ${prefix}couple
 • ${prefix}darkjokes
 • ${prefix}meme
@@ -135,7 +135,7 @@ ${runtime(process.uptime())}
 • ${prefix}truth
 • ${prefix}dare
 
-( ♀️ ) *Asupan Menu*
+</♀️> *Asupan Menu*
 • ${prefix}asupan
 • ${prefix}santuy
 • ${prefix}bocil
@@ -143,7 +143,7 @@ ${runtime(process.uptime())}
 • ${prefix}rikagusriani
 • ${prefix}ghea
 
-( 🦋 ) *Cecan Menu*
+</🦋> *Cecan Menu*
 • ${prefix}china
 • ${prefix}hijab
 • ${prefix}indon
@@ -151,7 +151,7 @@ ${runtime(process.uptime())}
 • ${prefix}korea
 • ${prefix}malay
 
-( 🌈 ) *Nsfw Menu*
+</🌈> *Nsfw Menu*
 • ${prefix}awoo
 • ${prefix}blowjob
 • ${prefix}hentai
@@ -159,19 +159,19 @@ ${runtime(process.uptime())}
 • ${prefix}neko
 • ${prefix}trapnime
 
-( ➿ ) *Waifu Menu*
+</➿> *Waifu Menu*
 • ${prefix}loli
 • ${prefix}husbu
 • ${prefix}shota
 • ${prefix}cosplay
 • ${prefix}wallml
 
-( 🤖 ) *JadiBot Menu*
+</🤖> *JadiBot Menu*
 • ${prefix}jadibot
 • ${prefix}stopjadibot
 • ${prefix}listjadibot
 
-( 🎨 ) *Text Pro Menu*
+</🎨> *Text Pro Menu*
 • ${prefix}pornhub
 • ${prefix}glitch
 • ${prefix}gameover
@@ -179,7 +179,7 @@ ${runtime(process.uptime())}
 • ${prefix}grafity2
 • ${prefix}logowolf
 
-( 👑 ) *Owner Menu*
+</👑> *Owner Menu*
 • ${prefix}mode
 • ${prefix}public
 • ${prefix}self

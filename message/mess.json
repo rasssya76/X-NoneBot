@@ -1,5 +1,5 @@
 {
-  "wait": "*WAIT* || Being processed...",
+  "wait": "*Wait* || loading....",
   "success": "*SUCCESS* || Follows Instagram @iamfadlyid_",
   "error": {
       "stick": "*ERROR* || Cannot access videos!",
